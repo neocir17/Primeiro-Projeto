@@ -1,0 +1,23 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        float n1 = 8;
+        float n2 = 9;
+        float n3 = 7;
+        float n4 = 4;
+        float n5 = 5;
+        float n6 = 6;
+        
+        float total1 = (n1+n2+n3)/3;
+        float total2 = (n4+n5+n6)/3;
+    
+      System.out.println("A primeira média é: "+total1);
+      System.out.println("A segunda média é: "+total2);
+     
+      float soma = total1+total2;
+      System.out.println("A soma das médias é: "+soma);
+      System.out.println("A media da soma das médias é: "+soma/2);
+     
+     }
+    }
